@@ -37,15 +37,11 @@ nav ul li a{
 nav ul li a:hover{
     color: #fd4766;
 }
-nav ul li a:after{
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 0;
-    height: 3px;
-    background: #fd4766;
-    transition: .3s;
-    bottom: 0;
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
 }
 nav ul li a:hover:after{
     width: 100%;
